@@ -3,6 +3,7 @@
 <test name="Sanity" preserve-order="true">
 <classes>
 <class name="com.playphone.nativeAndroid.PostScore"/>
+<class name="com.playphone.nativeAndroid.Clickinit"/>
 
 
 
