@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+<test name="Sanity" preserve-order="true">
+<classes>
+<class name="com.playphone.nativeAndroid.PostScore"/>
+
+
+
+</classes>
+</test>
+</suite>
