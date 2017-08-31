@@ -29,7 +29,7 @@ WebDriver driver;
 	  caps.setCapability(MobileCapabilityType.DEVICE_NAME, "56c34fc8");
 	  caps.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 	  caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "100");
-	  driver = new RemoteWebDriver(new URL("http://172.16.1.180:4723/wd/hub"),caps);
+	  driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"),caps);
 	}
 	@Test
 	public void clickInit() throws InterruptedException{
